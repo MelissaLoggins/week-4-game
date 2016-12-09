@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+body {
+	/*background-image: url("../images/crystalline_child.jpg");*/
+	font-size: 24px;
+	line-height: 32px;
+	font-family: 'Neucha', cursive;
+	color: #3299CC;
+	background-color: black;
+}
+
+.row {
+	/*background-color: yellow;*/
+}
+
+.container-fluid {
+	background-image: url("../images/crystalline_child.jpg");
+}
+
+h1 {
+	font-family: 'Bangers', cursive;
+	color: black;
+}
+
+.container {
+
+}
+
+
+#ruby:hover {
+	background-color: #C42938;
+	opacity: 8.0;
+	border-color: black;
+
+}
