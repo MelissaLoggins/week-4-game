@@ -10,7 +10,43 @@ $(document).ready(function(){
         var randomNumber="";
 
         for (var i = 0; i < 2; i++) {
-          var random = Math.floor(Math.random() * 2) + 1;
+          var random = Math.floor(Math.random() * 9) + 1;
+
+          randomNumber = random + randomNumber; 
+        }
+        console.log(randomNumber)
+      })
+
+      $("#gem2").on("click", function() {
+        
+        var randomNumber="";
+
+        for (var i = 0; i < 2; i++) {
+          var random = Math.floor(Math.random() * 9) + 1;
+
+          randomNumber = random + randomNumber; 
+        }
+        console.log(randomNumber)
+      })
+
+      $("#gem3").on("click", function() {
+        
+        var randomNumber="";
+
+        for (var i = 0; i < 2; i++) {
+          var random = Math.floor(Math.random() * 9) + 1;
+
+          randomNumber = random + randomNumber; 
+        }
+        console.log(randomNumber)
+      })
+
+      $("#gem4").on("click", function() {
+        
+        var randomNumber="";
+
+        for (var i = 0; i < 2; i++) {
+          var random = Math.floor(Math.random() * 9) + 1;
 
           randomNumber = random + randomNumber; 
         }
