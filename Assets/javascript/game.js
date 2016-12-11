@@ -6,8 +6,8 @@ $(document).ready(function(){
 var 
 
         // When random-button is clicked...
-      $("#random-button").on("click", function() {
-
+      $("#gem1").on("click", function() {
+          alert("test");
         // ...create a string which will hold the lottery number.
         var lottoNumber = "";
 
@@ -20,7 +20,7 @@ var
         }
 
         // Then prepend the lotto number to the top of our random-number div.
-        $("#random-number").prepend("<br><hr>" + lottoNumber);
+        $("#gem1").prepend("<br><hr>" + lottoNumber);
       });
     });
 
