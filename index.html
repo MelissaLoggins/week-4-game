@@ -15,6 +15,7 @@
 <!-- Styling -->
 <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
 
+
 <!-- font links -->
 <style>
 @import url('https://fonts.googleapis.com/css?family=Bangers|Neucha');
@@ -29,19 +30,19 @@
 
 
 <!-- fluid container -->
-<div class="container-fluid">
+<div class="container">
+	<div class="jumbotron">
 <!-- heading and navigation  -->
-<header class="section">
+		<h1>Crystal Enlightenment Game</h1>
+<!-- <header class="section">
 	<nav class="navbar navbar-default navbar-top-fixed">
 		<h1 id="title">Crystal Enlightenment Game</h1>
 		</nav>
-</header>
-
-<!-- Not real sure why I have this here.<main> -->
+</header> -->
 
 <!-- Instructions -->
-	 <div class="panel panel-body">
-			<h2>How to Play:</h2>
+	 <!-- <div class="panel panel-body"> -->
+			<p>How to Play:</p>
 			
 					<p>Try to live up to the expectations of the Guru by collecting enlightenment with the crystals.
 
@@ -53,9 +54,26 @@
 			</div>
 		
 
-			<!-- This is where you will put the wins, losses, the Guru's random enlightenment number.-->
+<!-- Game board -->
+		<div class="row">
 
-		<div class="container1">
+			<div class="col-lg-5">
+				<h1>Goal</h1>
+				<div id="goal" class="game"></div>
+			</div>
+
+			<div class="col-lg-2">
+				<p id="wins">Wins:0</p>
+				<p id="losses">Losses: 0</p>
+				<div class="outcome" class="game"></div>
+
+			<div class="col-lg-5">
+				<h1>Your Score</h1>
+				<div id="score" class="game"></div>
+			</div>
+
+
+		<!-- <div class="container1">
 			<div id="wins"><p>Level of Enlightenment:</p>
 			</div>
 		
@@ -66,12 +84,21 @@
 			<div id="guruHead"><p>Guru's Enlightenment:</p>
 			</div>
 
-			<div id="randomNumber"><p>Your Current Path to Enlightenment:</p>
+			<div id="userTurn"><p>Your Current Path to Enlightenment:</p>
 			</div>
-		</div>
+		</div> -->
 
 <!-- gems -->
-	<div class="container2">
+	<div class="row" id="pieces">
+		<img src="Assets/images/amethyst.png" alt="amethyst" class="gems" id="gem1">
+		<img src="Assets/images/emerald.png" alt="emerald" class="gems" id="gem2">
+		<img src="Assets/images/ruby.png" alt="ruby" class="gems" id="gem3">
+		<img src="Assets/images/sapphire.png" alt="sapphire" class="gems" id="gem4">
+
+	</div>
+
+
+	<!-- <div class="container2">
 			<button id="gem1" class="btn btn-primary">
 				  <div class="col-sm-3"></div> 
 				    <a href="#" class="thumbnail">
@@ -99,7 +126,7 @@
 			      <img src="Assets/images/sapphire.png" alt="sapphire">
 			    </a>
 			  </button>
-		</div>
+		</div> -->
 	<!-- </div> -->
 	
 

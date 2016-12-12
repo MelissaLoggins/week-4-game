@@ -14,9 +14,42 @@ body {
 	background-color: black;
 }
 
+.jumbotron {
+	text-align: center;
+	background: transparent;
+}
 
-.container-fluid {
-	/*background-image: url("../images/crystalline_child.jpg");*/
+h1 {
+	font-family: 'Bangers', cursive;
+}
+.row {
+	font-family: 'Bangers', cursive;
+}
+
+.col-lg-5 {
+	background: transparent;
+	text-align: center;
+	height: 200px;
+	font-size: 60px;
+}
+
+.col-lg-2 {
+	text-align: center;
+}
+
+#pieces {
+	text-align: center;
+	margin-top: 20px;
+	padding: 20px;
+	background: transparent;
+}
+
+.gems {
+	width: 100px;
+	height: 100px;
+}
+
+/*.container-fluid {
 	background-color: transparent;
 	float: left;
 }
@@ -32,21 +65,7 @@ h1 {
 	box-sizing: border-box;
 }
 
-/*.row {
-	/*background-color: transparent;*/
-	height: 120px;
-	width: 24%;
-	position: fixed;
-	bottom: 0;
-	float: left;
-/*}*/
 
-/*.col-sm-3 {
-	background-color: transparent;
-	width: 25%;
-	
-}
-*/
 .container1 {
 	background-color: transparent;
 	box-sizing: border-box;
@@ -83,3 +102,4 @@ h1 {
 
 
 
+*/
