@@ -6,9 +6,6 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
 <!-- Jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.js" type="text/javascript"></script>
 
@@ -34,14 +31,9 @@
 	<div class="jumbotron">
 <!-- heading and navigation  -->
 		<h1>Crystal Enlightenment Game</h1>
-<!-- <header class="section">
-	<nav class="navbar navbar-default navbar-top-fixed">
-		<h1 id="title">Crystal Enlightenment Game</h1>
-		</nav>
-</header> -->
 
 <!-- Instructions -->
-	 <!-- <div class="panel panel-body"> -->
+	<div>
 			<p>How to Play:</p>
 			
 					<p>Try to live up to the expectations of the Guru by collecting enlightenment with the crystals.
@@ -51,96 +43,49 @@
 					  The Universe will bestow on you the amount of enlightenment it believes you deserve with the choices you make.
 					  <br> It is rude to best your Guru. He is enlightened, but not that enlightened. If you go over his level of enlightenment, you have failed.
 					</p>
-			</div>
+	</div>				
+	</div>
 		
 
 <!-- Game board -->
-		<div class="row">
 
-			<div class="col-lg-5">
-				<h1>Goal</h1>
+		<div class="row" id="content">
+
+			<div class="col-md-12">
+				<h1 class="guru">Goal</h1>
 				<div id="goal" class="game"></div>
 			</div>
 
-			<div class="col-lg-2">
-				<p id="wins">Wins:0</p>
-				<p id="losses">Losses: 0</p>
-				<div class="outcome" class="game"></div>
-
 			<div class="col-lg-5">
-				<h1>Your Score</h1>
-				<div id="score" class="game"></div>
+				<h1 class="playerScore">Your Score</h1>
+				<div id="score" class="game">0</div>
 			</div>
 
-
-		<!-- <div class="container1">
-			<div id="wins"><p>Level of Enlightenment:</p>
-			</div>
-		
-
-			<div id="losses"><p>Failure to Grow Spiritually:</p>
-			</div>
-
-			<div id="guruHead"><p>Guru's Enlightenment:</p>
-			</div>
-
-			<div id="userTurn"><p>Your Current Path to Enlightenment:</p>
-			</div>
-		</div> -->
+			<div class="col-md-12">
+				<p class="playerWins">Wins:</p><p id="wins">0</p>
+				<p class="playerLosses">Losses:</p><p id="losses">0</p>
+				<div class="outcome" class="game"></div>
+			</div>	
+		</div>	
+			<br>
 
 <!-- gems -->
-	<div class="row" id="pieces">
-		<img src="Assets/images/amethyst.png" alt="amethyst" class="gems" id="gem1">
-		<img src="Assets/images/emerald.png" alt="emerald" class="gems" id="gem2">
-		<img src="Assets/images/ruby.png" alt="ruby" class="gems" id="gem3">
-		<img src="Assets/images/sapphire.png" alt="sapphire" class="gems" id="gem4">
-
+	<div class="row" class="container" id ="pieces">
+		<div class="row" class="col-md-12">
+			<img src="Assets/images/amethyst.png" alt="amethyst" class="gems" id="gem1">
+			<img src="Assets/images/emerald.png" alt="emerald" class="gems" id="gem2">
+			<img src="Assets/images/ruby.png" alt="ruby" class="gems" id="gem3">
+			<img src="Assets/images/sapphire.png" alt="sapphire" class="gems" id="gem4">
+		</div>
 	</div>
 
-
-	<!-- <div class="container2">
-			<button id="gem1" class="btn btn-primary">
-				  <div class="col-sm-3"></div> 
-				    <a href="#" class="thumbnail">
-				      <img src="Assets/images/amethyst.png" alt="amethyst">
-				    </a>
-			</button>
-
-			<button id="gem2" class="btn btn-primary">
-			  <div class="col-sm-3"></div>
-			    <a href="#" class="thumbnail">
-			      <img src="Assets/images/emerald.png" alt="emerald">
-			    </a>
-			  </button>
-
-			<button id="gem3" class="btn btn-primary">
-			  <div class="col-sm-3"></div>
-			    <a href="#" class="thumbnail">
-			      <img src="Assets/images/ruby.png" alt="ruby">
-			    </a>
-			 </button>
-
-			<button id="gem4" class="btn btn-primary">
-			  <div class="col-sm-3"></div>
-			    <a href="#" class="thumbnail">
-			      <img src="Assets/images/sapphire.png" alt="sapphire">
-			    </a>
-			  </button>
-		</div> -->
-	<!-- </div> -->
-	
-
-	
-	<!-- </nav> -->
-
-<!-- </main> -->
-
-	</div>
+</div>
 <script src="Assets/javascript/game.js" type="text/javascript"></script>
 
 
 </body>
 </html>
+			
 			
 		
 

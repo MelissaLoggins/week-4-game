@@ -7,6 +7,7 @@
 
 body {
 	background-image: url("../images/crystalline_child.jpg");
+	background-repeat: no-repeat;
 	font-size: 24px;
 	line-height: 32px;
 	font-family: 'Neucha', cursive;
@@ -17,13 +18,72 @@ body {
 .jumbotron {
 	text-align: center;
 	background: transparent;
+	padding-bottom: 1px;
+	border: solid 1px red;
 }
 
+/*.guru, .game, #goal {
+	margin-top: 5px;
+}
+*/
 h1 {
 	font-family: 'Bangers', cursive;
 }
+
 .row {
 	font-family: 'Bangers', cursive;
+	margin-left: 0;
+  	margin-right: 0;
+}
+
+.container {
+	border: solid 1px red;
+}
+
+#content {
+	border: dashed 1px red;
+	width: 1140px;
+	height: 100px;
+	position: absolute;
+}
+
+.guru {
+	top: -86%;
+	left: -2%;
+}
+
+.playerScore {
+	float: right;
+	margin: -5px;
+}
+
+.playerWins, #wins {
+	float: left;
+}
+
+#losses {
+	float: right;
+}
+
+.playerLosses {
+	position: relative; 
+}
+
+/*#losses {
+	position: relative;
+}*/
+
+/*.playerScore {
+	float: right;
+	padding: 2px;
+}*/
+
+/*#score {
+	margin: 2px;
+}
+#wins, #losses p {
+	margin: 2px;
+	position: absolute;
 }
 
 .col-lg-5 {
@@ -31,10 +91,10 @@ h1 {
 	text-align: center;
 	height: 200px;
 	font-size: 60px;
-}
+}*/
 
-.col-lg-2 {
-	text-align: center;
+/*.col-lg-2 {
+	text-align: center;	
 }
 
 #pieces {
@@ -47,59 +107,12 @@ h1 {
 .gems {
 	width: 100px;
 	height: 100px;
-}
-
-/*.container-fluid {
-	background-color: transparent;
-	float: left;
-}
-
-h1 {
-	font-family: 'Bangers', cursive;
-	color: black;
-}
-
-.panel-body {
-	background-color: transparent;
-	float: left;
-	box-sizing: border-box;
-}
-
-
-.container1 {
-	background-color: transparent;
-	box-sizing: border-box;
-	float: left; 
-
-}
-
-.container2 {
-	float: left;
-	padding-bottom: 10px;
-}
-
-#gem1 {
-	width: 25%;
-	float: left;
-}
-
-#gem2 {
-	width: 25%;
-	float: left;
-}
-
-#gem3 {
-	width: 25%;
-	float: left;
-}
-
-#gem4 {
-	width: 25%;
-	float: left;
-}
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: left;
+}*/
 
 
 
 
-
-*/
